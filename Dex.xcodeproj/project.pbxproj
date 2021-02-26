@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343B1CA425E8F04F002D049E /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 343B1CA325E8F04F002D049E /* unnamed.png */; };
+		343B1CA825E8F2FE002D049E /* Untitled design-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 343B1CA725E8F2FE002D049E /* Untitled design-3.png */; };
+		343B1CAB25E8F67C002D049E /* UIImageRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B1CAA25E8F67C002D049E /* UIImageRotation.swift */; };
+		343B1CAE25E8FD3D002D049E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B1CAD25E8FD3D002D049E /* InfoViewController.swift */; };
+		343B1CB125E8FF26002D049E /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B1CB025E8FF26002D049E /* Pokemon.swift */; };
+		3453657025E8D6DC004471E3 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3453656D25E8D6BA004471E3 /* Pokemon Solid.ttf */; };
+		3453657225E8D6DF004471E3 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3453656E25E8D6C1004471E3 /* Pokemon Hollow.ttf */; };
+		3453658A25E8E08E004471E3 /* Untitled design-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3453658925E8E08E004471E3 /* Untitled design-2.png */; };
+		3453658E25E8E0B3004471E3 /* Blue and Cream Animal Crossing Icons Homescreen Wallpaper-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3453658D25E8E0B3004471E3 /* Blue and Cream Animal Crossing Icons Homescreen Wallpaper-2.png */; };
+		346BD49525E8CF1D005DCB22 /* Screen Shot 2021-02-25 at 10.39.08 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 346BD49425E8CF1D005DCB22 /* Screen Shot 2021-02-25 at 10.39.08 PM.png */; };
+		346BD49925E8D196005DCB22 /* Pok.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 346BD49825E8D196005DCB22 /* Pok.mlmodel */; };
 		34DE836125E8CD6E009F0F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE836025E8CD6E009F0F44 /* AppDelegate.swift */; };
 		34DE836325E8CD6E009F0F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE836225E8CD6E009F0F44 /* SceneDelegate.swift */; };
 		34DE836525E8CD6E009F0F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE836425E8CD6E009F0F44 /* ViewController.swift */; };
@@ -16,6 +27,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		343B1CA325E8F04F002D049E /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		343B1CA725E8F2FE002D049E /* Untitled design-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled design-3.png"; sourceTree = "<group>"; };
+		343B1CAA25E8F67C002D049E /* UIImageRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageRotation.swift; sourceTree = "<group>"; };
+		343B1CAD25E8FD3D002D049E /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		343B1CB025E8FF26002D049E /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		3453656D25E8D6BA004471E3 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		3453656E25E8D6C1004471E3 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		3453657425E8D9F3004471E3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3453657525E8D9F4004471E3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		3453657625E8D9F4004471E3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		3453657725E8D9F4004471E3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3453657825E8D9F4004471E3 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		3453657925E8D9F4004471E3 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3453657A25E8D9F4004471E3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		3453657B25E8D9F4004471E3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3453657C25E8D9F4004471E3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3453657D25E8D9F4004471E3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		3453658925E8E08E004471E3 /* Untitled design-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled design-2.png"; sourceTree = "<group>"; };
+		3453658D25E8E0B3004471E3 /* Blue and Cream Animal Crossing Icons Homescreen Wallpaper-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue and Cream Animal Crossing Icons Homescreen Wallpaper-2.png"; sourceTree = "<group>"; };
+		346BD49425E8CF1D005DCB22 /* Screen Shot 2021-02-25 at 10.39.08 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-02-25 at 10.39.08 PM.png"; sourceTree = "<group>"; };
+		346BD49825E8D196005DCB22 /* Pok.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pok.mlmodel; sourceTree = "<group>"; };
 		34DE835D25E8CD6E009F0F44 /* Dex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DE836025E8CD6E009F0F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34DE836225E8CD6E009F0F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +69,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343B1CB325E906E3002D049E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34DE836425E8CD6E009F0F44 /* ViewController.swift */,
+				343B1CAD25E8FD3D002D049E /* InfoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		343B1CB425E906FD002D049E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				343B1CAA25E8F67C002D049E /* UIImageRotation.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		343B1CB625E9071C002D049E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34DE836B25E8CD71009F0F44 /* LaunchScreen.storyboard */,
+				34DE836625E8CD6E009F0F44 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		343B1CB725E90729002D049E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				343B1CB025E8FF26002D049E /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		343B1CB825E9074D002D049E /* UI Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				346BD49425E8CF1D005DCB22 /* Screen Shot 2021-02-25 at 10.39.08 PM.png */,
+				343B1CA725E8F2FE002D049E /* Untitled design-3.png */,
+				3453658925E8E08E004471E3 /* Untitled design-2.png */,
+				3453658D25E8E0B3004471E3 /* Blue and Cream Animal Crossing Icons Homescreen Wallpaper-2.png */,
+				343B1CA325E8F04F002D049E /* unnamed.png */,
+			);
+			name = "UI Image Assets";
+			sourceTree = "<group>";
+		};
+		343B1CB925E90789002D049E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				34DE836025E8CD6E009F0F44 /* AppDelegate.swift */,
+				34DE836225E8CD6E009F0F44 /* SceneDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		3453656F25E8D6C7004471E3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3453657525E8D9F4004471E3 /* OpenSans-Bold.ttf */,
+				3453657425E8D9F3004471E3 /* OpenSans-BoldItalic.ttf */,
+				3453657C25E8D9F4004471E3 /* OpenSans-ExtraBold.ttf */,
+				3453657B25E8D9F4004471E3 /* OpenSans-ExtraBoldItalic.ttf */,
+				3453657D25E8D9F4004471E3 /* OpenSans-Italic.ttf */,
+				3453657625E8D9F4004471E3 /* OpenSans-Light.ttf */,
+				3453657A25E8D9F4004471E3 /* OpenSans-LightItalic.ttf */,
+				3453657725E8D9F4004471E3 /* OpenSans-Regular.ttf */,
+				3453657825E8D9F4004471E3 /* OpenSans-SemiBold.ttf */,
+				3453657925E8D9F4004471E3 /* OpenSans-SemiBoldItalic.ttf */,
+				3453656D25E8D6BA004471E3 /* Pokemon Solid.ttf */,
+				3453656E25E8D6C1004471E3 /* Pokemon Hollow.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		34DE835425E8CD6D009F0F44 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +162,16 @@
 		34DE835F25E8CD6E009F0F44 /* Dex */ = {
 			isa = PBXGroup;
 			children = (
-				34DE836025E8CD6E009F0F44 /* AppDelegate.swift */,
-				34DE836225E8CD6E009F0F44 /* SceneDelegate.swift */,
-				34DE836425E8CD6E009F0F44 /* ViewController.swift */,
-				34DE836625E8CD6E009F0F44 /* Main.storyboard */,
-				34DE836925E8CD71009F0F44 /* Assets.xcassets */,
-				34DE836B25E8CD71009F0F44 /* LaunchScreen.storyboard */,
 				34DE836E25E8CD71009F0F44 /* Info.plist */,
+				346BD49825E8D196005DCB22 /* Pok.mlmodel */,
+				343B1CB925E90789002D049E /* Delegates */,
+				34DE836925E8CD71009F0F44 /* Assets.xcassets */,
+				343B1CB425E906FD002D049E /* Extensions */,
+				343B1CB725E90729002D049E /* Model */,
+				343B1CB625E9071C002D049E /* View */,
+				343B1CB325E906E3002D049E /* Controller */,
+				343B1CB825E9074D002D049E /* UI Image Assets */,
+				3453656F25E8D6C7004471E3 /* Fonts */,
 			);
 			path = Dex;
 			sourceTree = "<group>";
@@ -124,7 +233,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3453658A25E8E08E004471E3 /* Untitled design-2.png in Resources */,
+				3453658E25E8E0B3004471E3 /* Blue and Cream Animal Crossing Icons Homescreen Wallpaper-2.png in Resources */,
+				343B1CA425E8F04F002D049E /* unnamed.png in Resources */,
+				343B1CA825E8F2FE002D049E /* Untitled design-3.png in Resources */,
+				3453657025E8D6DC004471E3 /* Pokemon Solid.ttf in Resources */,
 				34DE836D25E8CD71009F0F44 /* LaunchScreen.storyboard in Resources */,
+				3453657225E8D6DF004471E3 /* Pokemon Hollow.ttf in Resources */,
+				346BD49525E8CF1D005DCB22 /* Screen Shot 2021-02-25 at 10.39.08 PM.png in Resources */,
 				34DE836A25E8CD71009F0F44 /* Assets.xcassets in Resources */,
 				34DE836825E8CD6E009F0F44 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343B1CB125E8FF26002D049E /* Pokemon.swift in Sources */,
+				346BD49925E8D196005DCB22 /* Pok.mlmodel in Sources */,
+				343B1CAB25E8F67C002D049E /* UIImageRotation.swift in Sources */,
 				34DE836525E8CD6E009F0F44 /* ViewController.swift in Sources */,
 				34DE836125E8CD6E009F0F44 /* AppDelegate.swift in Sources */,
+				343B1CAE25E8FD3D002D049E /* InfoViewController.swift in Sources */,
 				34DE836325E8CD6E009F0F44 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
